@@ -1,0 +1,9 @@
+:root{
+    --primary: #8015EA;
+    --secondary: #15EA80;
+    --third: #EA8015;
+    --primaryHighlight: #9A44EE;
+    --secondaryHighlight: #EA15E9;
+    --bgColor: #1b1b1b;
+    --secondaryHeader: rgba(255, 255, 255, 0.7);
+}

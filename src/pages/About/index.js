@@ -3,6 +3,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
 import Navbar from '../../components/Layout/Navbar';
 import { Grid, GridItem } from '@chakra-ui/react'
 import { createBreakpoints } from '@chakra-ui/theme-tools'
+import Introduction from '../../components/Layout/Introduction';
 import styles from './styles.module.css'
 
 const breakpoints = createBreakpoints({
@@ -16,6 +17,10 @@ export default function About() {
     <Grid w='100vw' h='100vh' bg='#1b1b1b' templateColumns={{sm: 'repeat(1fr)', lg: 'repeat(5, 1fr)' }} templateRows='repeat(10, 1fr)'>
       <GridItem colSpan={5} rowSpan={1} bgGradient={'linear(#303030, #1b1b1b)'}>
         <Navbar/>
+      </GridItem>
+      
+      <GridItem colSpan={5} rowSpan={9} h={'100%'} w={'100%'} paddingBottom={'2em'} paddingLeft={{sm: '5vw', lg: '10vw'}} paddingRight={{sm: '5vw', lg: '10vw'}}>
+        <Introduction />
       </GridItem>
     </Grid>
   )
