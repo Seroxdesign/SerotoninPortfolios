@@ -1,20 +1,15 @@
 const Links = [
     {
-        icon: "https://i.imgur.com/zyXjNib.png",
-        title: "Adobe Suite expert",
-        para: "",
+        link: 'https://www.instagram.com/michaellinesdesign/?hl=en',
+        img: 'https://i.imgur.com/cbHzfgE.png',
     },
-
     {
-        icon: "https://i.imgur.com/aDfLb8y.png",
-        title: "Photographer",
-        para: "",
+        link: 'https://www.linkedin.com/notifications/?filter=all',
+        img: 'https://i.imgur.com/9iCbGf3.png',
     },
-
     {
-        icon: "https://i.imgur.com/6xgurtA.png",
-        title: "Good Communicator",
-        para: "",
+        link: 'https://open.spotify.com/show/0IHmwK67nE9amh3bYXcqYf',
+        img: 'https://i.imgur.com/JjUEb6f.png',
     },
 ]
 

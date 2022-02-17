@@ -2,10 +2,15 @@
     .link_bar{
         height: 100%;
         width:100%;
-        border: 1px solid red;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+    .img{
+        height: 2em;
+        filter:brightness(0) invert(0.7);
     }
 }
 
@@ -14,9 +19,23 @@
         height: 100%;
         width:50%;
         margin-left: 25%;
-        border: 1px solid red;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
+
+    .img{
+        height: 2em;
+        filter:brightness(0) invert(0.7);
+    }
+
+    .img:hover{
+        filter: invert(1);
+    }
+}
+
+a:focus {
+    outline: none;
 }
