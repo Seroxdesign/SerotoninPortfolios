@@ -1,0 +1,8 @@
+.heading{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: large;
+    width: 60%;
+    text-align: center;
+    margin-top: 2em;
+    line-height: 1.4em;
+}
