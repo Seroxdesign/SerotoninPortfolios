@@ -1,0 +1,68 @@
+
+@media screen and (max-width: 786px){
+    .btn{
+        background-color: #15EA80;
+        color: #1b1b1b; 
+        font-size: large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-weight: 400;
+        height: 7vh;
+        font-size: medium;
+        width: 40vw;
+    }
+    .btn_invert{
+        color: #15EA80;
+        border:2px solid #15EA80;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: medium;
+        font-weight: 400;
+        height: 7vh;
+        width: 40vw;
+    }
+}
+
+@media screen and (min-width: 786px){
+    .btn{
+        background-color: #15EA80;
+        color: #1b1b1b; 
+        font-size: large;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        font-weight: 600;
+        transition: 0.5s;
+        height: 7vh;
+        width: 18vw;
+    }
+    
+    .btn:hover{
+        color: #15EA80;
+        font-size: large;
+        background-color: #080808;
+    }
+    
+    .btn_invert{
+        color: #15EA80;
+        border:2px solid #15EA80;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        transition: 0.5s;
+        height: 7vh;
+        font-weight: 600;
+        width: 18vw;
+    }
+    
+    .btn_invert:hover{
+        background-color: #15EA80;
+        color: #1b1b1b;
+    }
+}

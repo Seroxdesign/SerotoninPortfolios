@@ -1,0 +1,22 @@
+@media screen and (max-width: 786px){
+    .link_bar{
+        height: 100%;
+        width:100%;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 786px){
+    .link_bar{
+        height: 100%;
+        width:50%;
+        margin-left: 25%;
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

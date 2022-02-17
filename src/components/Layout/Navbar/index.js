@@ -25,19 +25,19 @@ export default function Navbar() {
         </div>
 
         <div className={styles.nav}>
-            <NavLink exact to={"/"} onClick={() => logEvent(analytics, "Clicked Home Page")} className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
+            <NavLink to={"/"} onClick={() => logEvent(analytics, "Clicked Home Page")} className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
                 Home
             </NavLink>
-            <NavLink exact to={"/about"} onClick={() => logEvent(analytics, "Clicked About Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
+            <NavLink to={"/about"} onClick={() => logEvent(analytics, "Clicked About Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
                 About
             </NavLink>
-            <NavLink exact to={"/portfolio"} onClick={() => logEvent(analytics, "Clicked Portfolio Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
+            <NavLink to={"/portfolio"} onClick={() => logEvent(analytics, "Clicked Portfolio Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
                 Portfolio
             </NavLink>
-            <NavLink exact to={"/shop"} onClick={() => logEvent(analytics, "Clicked Shop Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
+            <NavLink to={"/shop"} onClick={() => logEvent(analytics, "Clicked Shop Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
                 Shop
             </NavLink>
-            <NavLink exact to={"/login"} onClick={() => logEvent(analytics, "Clicked Login Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
+            <NavLink to={"/login"} onClick={() => logEvent(analytics, "Clicked Login Page")}  className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
                 Login
             </NavLink>
         </div>

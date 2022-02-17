@@ -1,8 +1,21 @@
-.heading{
-    color: rgba(255, 255, 255, 0.5);
-    font-size: large;
-    width: 60%;
-    text-align: center;
-    margin-top: 2em;
-    line-height: 1.4em;
+@media screen and (max-width: 786px){
+    .heading{
+        color: rgba(255, 255, 255, 0.4);
+        font-size: large;
+        width: 80%;
+        text-align: center;
+        margin-top: 1.5em;
+        line-height: 1.2em;
+    }
+}
+
+@media screen and (min-width: 786px){
+    .heading{
+        color: rgba(255, 255, 255, 0.4);
+        font-size: larger;
+        width: 60%;
+        text-align: center;
+        margin-top: 1.5em;
+        line-height: 1.4em;
+    }
 }
