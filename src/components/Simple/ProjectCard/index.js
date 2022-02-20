@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 export default function ProjectCard(props) {
   return (
-    <div className={styles.project_card}>
+    <div className={styles.project_card} styles={{flexDirection: `${props.direction}`}}>
       <div className={styles.img_container}>
       <img src={props.img} alt={props.title} className={styles.project_img}></img>
       </div>

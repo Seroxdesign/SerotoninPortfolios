@@ -3,7 +3,7 @@ import { getAnalytics, logEvent } from "firebase/analytics";
 import Navbar from '../../components/Layout/Navbar';
 import { Grid, GridItem } from '@chakra-ui/react'
 import ContentTable from '../../components/Layout/TableofContents';
-import { createBreakpoints } from '@chakra-ui/theme-tools'
+import { createBreakpoints } from '@chakra-ui/theme-tools';
 import ProjectPreviews from '../../components/Layout/ProjectPreviews';
 import styles from './styles.module.css'
 
@@ -26,7 +26,6 @@ export default function Portfolio() {
 
       <GridItem colSpan={4} rowSpan={9} w={'100%'} p={'2em'} overflowY={'scroll'}>
         <ProjectPreviews />
-        <BlogPreviews />
       </GridItem>
     </Grid>
   )
