@@ -1,5 +1,35 @@
-.blogContainer{
-    height: 100%;
-    padding-top: 2em;
-    width: 100%;
+
+@media screen and (max-width: 786px){
+    .blogContainer{
+        height: 100%;
+        padding-top: 2em;
+        width: 100%;
+    }
+    
+    .blogs{
+        height: 100%;
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (min-width: 786px){
+    .blogContainer{
+        height: 100%;
+        padding-top: 2em;
+        width: 100%;
+    }
+    
+    .blogs{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:1em; 
+    }
+    
 }

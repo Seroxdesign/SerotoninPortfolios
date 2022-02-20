@@ -17,6 +17,8 @@ export default function Login() {
       <GridItem colSpan={5} rowSpan={1} bgGradient={'linear(#303030, #1b1b1b)'}>
         <Navbar/>
       </GridItem>
+
+      <h1 style={{color: 'white'}}>Under construction</h1>
     </Grid>
   )
 }

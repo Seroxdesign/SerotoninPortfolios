@@ -7,7 +7,7 @@ const blogsPrev = [
     },
     {
         img: 'https://i.imgur.com/JRIhsiS.jpg',
-        title: 'Business and friends, do they mix?',
+        title: 'Business and friends',
         para: "Ask yourself, would you marry your friend? A weird thought I know, but if your answer was no, due to their character, ethics or values, then you should also say no to doing business with them. My advice to you is to be cautious of difficulties and strains in your friendship, as they will likely be amplified in the business, as they often are in marriage. ",
         link: '',
     },

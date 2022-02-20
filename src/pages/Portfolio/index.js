@@ -20,7 +20,7 @@ export default function Portfolio() {
         <Navbar/>
       </GridItem>
 
-      <GridItem colSpan={{lg: '1', sm: '0'}} rowSpan={9} border={'1px solid white'} w={'80%'} display={{sm: 'none', lg: 'grid'}}>
+      <GridItem colSpan={{lg: '1', sm: '0'}} rowSpan={9} w={'80%'} display={{sm: 'none', lg: 'grid'}}>
         <ContentTable />
       </GridItem>
 
