@@ -1,0 +1,15 @@
+.profileImg{
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    border: 3px solid #8015EA;
+}
+
+@media screen and (max-width: 786px){
+    .profileImg{
+        height: 14vh;
+        width: 14vh;
+        margin-top: 30vh;
+    }
+    
+}

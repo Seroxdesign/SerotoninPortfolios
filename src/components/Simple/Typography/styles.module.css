@@ -1,0 +1,18 @@
+.typography_container{
+    background-color: #353535;
+    color: white;
+    height: 100%;
+    width: 80%;
+    align-items: left;
+    border-radius: 25px;
+    padding: 2em;
+    padding-bottom: 1em;
+    font-size: large;
+}
+
+@media screen and (max-width: 786px){
+    .typography_container{
+        width: 95%;
+        font-size: medium;
+    }
+}
