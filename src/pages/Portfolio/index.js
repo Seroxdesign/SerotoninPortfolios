@@ -20,12 +20,13 @@ export default function Portfolio() {
         <Navbar/>
       </GridItem>
 
-      <GridItem colSpan={1} rowSpan={9} border={'1px solid white'} w={'80%'}>
+      <GridItem colSpan={{lg: '1', sm: '0'}} rowSpan={9} border={'1px solid white'} w={'80%'} display={{sm: 'none', lg: 'grid'}}>
         <ContentTable />
       </GridItem>
 
-      <GridItem colSpan={4} rowSpan={9} border={'1px solid white'} w={'100%'} p={'2em'} overflowY={'scroll'}>
-        <ProjectPreviews></ProjectPreviews>
+      <GridItem colSpan={4} rowSpan={9} w={'100%'} p={'2em'} overflowY={'scroll'}>
+        <ProjectPreviews />
+        <BlogPreviews />
       </GridItem>
     </Grid>
   )
