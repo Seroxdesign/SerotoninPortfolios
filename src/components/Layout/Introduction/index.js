@@ -14,7 +14,7 @@ const breakpoints = createBreakpoints({
 
 export default function Introduction() {
   return (
-    <Flex h={'100%'} w={'100%'} align={'center'} direction={'column'} justify={'center'} paddingTop={{sm: '6vh'}}>
+    <Flex h={'100%'} w={'100%'} align={'center'} direction={'column'} justify={'center'} paddingTop={{sm: '15vh'}}>
       <ProfileImg img={Aboutme.img}/>
       <Heading color={'#9A44EE'} marginTop={'1em'} marginBottom={'1em'} textAlign={'center'}>{Aboutme.title}</Heading>
       <Typography text={Aboutme.text}/>

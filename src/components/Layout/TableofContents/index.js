@@ -4,9 +4,7 @@ import styles from './styles.module.css'
 export default function ContentTable(props) {
   return (
     <nav className={styles.contentNav}>
-        <h3 className={styles.contentTitle}>
-          Businesses
-        </h3>
+
         <ul className={styles.contentList}>
            <li className={styles.content_item}>
               Public Enemy Apparel
@@ -26,12 +24,7 @@ export default function ContentTable(props) {
            <li className={styles.content_item}>
               Photographer
            </li>
-        </ul>
-
-        <h3 className={styles.contentTitle}>
-          Blogs
-        </h3>
-        <ul className={styles.contentList}>
+     
           <li className={styles.content_item}>
               Unlocking Imagination
            </li>

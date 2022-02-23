@@ -24,7 +24,7 @@ export default function Portfolio() {
         <ContentTable />
       </GridItem>
 
-      <GridItem colSpan={4} rowSpan={9} w={'100%'} p={'2em'} overflowY={'scroll'}>
+      <GridItem colSpan={5} rowSpan={9} w={'100%'} overflowY={'scroll'}>
         <ProjectPreviews />
       </GridItem>
     </Grid>

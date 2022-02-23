@@ -20,9 +20,7 @@ export default function Navbar() {
 
         </div>
 
-        <div className=''>
-
-        </div>
+       
 
         <div className={styles.nav}>
             <NavLink to={"/"} onClick={() => logEvent(analytics, "Clicked Home Page")} className={(thisNav) => thisNav.isActive ? styles.active_link : ''}>
@@ -41,6 +39,10 @@ export default function Navbar() {
                 Login
             </NavLink>
         </div>
+
+        <div className=''>
+
+</div>
     </SimpleGrid>
   )
 }

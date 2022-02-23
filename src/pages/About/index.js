@@ -21,7 +21,7 @@ export default function About() {
         <Navbar/>
       </GridItem>
       
-      <GridItem colSpan={5} rowSpan={9} h={'100%'} w={'100%'} paddingBottom={'2em'} paddingLeft={{sm: '5vw', lg: '10vw'}} paddingRight={{sm: '5vw', lg: '10vw'}} overflowY={'scroll'}>
+      <GridItem colSpan={5} rowSpan={9} h={'100%'} w={'100%'} overflowY={'scroll'} paddingLeft={{sm: '5vw', lg: '10vw'}} paddingRight={{sm: '5vw', lg: '10vw'}} overflowY={'scroll'}>
         <Introduction />
         <SpecialtyTable />
         <SkillGrid />
