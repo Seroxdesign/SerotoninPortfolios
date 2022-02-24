@@ -1,0 +1,70 @@
+@media screen and (max-width: 786px){
+    .BlogCard{
+        width: 100%;
+        height: 70vh;
+        background-image: linear-gradient( #474747, #343434);
+        margin-top: 1em;
+    }
+
+    .img_container{
+        height: 40%;
+        width: 100%;
+    }
+
+    .img{
+        height: 100%;
+        width: 100%;
+    }
+    .para{
+        width: 100%;
+        font-size: small;
+        color: rgba(255, 255, 255, 0.728);
+        padding: 1em;
+    }
+    
+    .header{
+        font-size: large;
+        color: white;
+        padding: 1em;
+    }
+}
+
+@media screen and (min-width: 786px){
+    .BlogCard{
+        width: 100%;
+        height: 70vh;
+        background-image: linear-gradient( #474747, #343434);
+    }
+
+    .img_container{
+        height: 40%;
+        width: 100%;
+    }
+
+    .img{
+        height: 100%;
+        width: 100%;
+    }
+    .para{
+        width: 100%;
+        font-size: small;
+        color: rgba(255, 255, 255, 0.728);
+        padding: 1em;
+    }
+    
+    .header{
+        font-size: large;
+        color: white;
+        padding: 1em;
+    }
+}
+
+.linkTo{
+    width: 30%;
+    height: 15%;
+    background-color: #15EA80;
+    padding: 0.5em;
+    margin-left: 1em;
+    margin-top: 2em;
+    bottom: 0;
+}

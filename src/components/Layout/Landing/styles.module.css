@@ -25,6 +25,12 @@
         height: 7vh;
         width: 40vw;
     }
+
+    .logo{
+        filter: brightness(0) invert(1);
+        height: 15vh;
+        margin-bottom: 1em;
+    }
 }
 
 @media screen and (min-width: 786px){
@@ -64,5 +70,10 @@
     .btn_invert:hover{
         background-color: #15EA80;
         color: #1b1b1b;
+    }
+
+    .logo{
+        filter: brightness(0) invert(1);
+        height: 20vh;
     }
 }

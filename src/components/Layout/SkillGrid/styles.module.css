@@ -1,0 +1,16 @@
+.skillgrid{
+    margin-top: 3em;
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+@media screen and (max-width: 786px){
+    .skillgrid{
+        margin-top: 25vh;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+}

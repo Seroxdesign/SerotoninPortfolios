@@ -8,8 +8,9 @@ import styles from './styles.module.css'
 export default function Landing() {
   return (
     <Flex h={'100%'} w={'100%'} align={'center'} direction={'column'} justify={'center'}>
-        <Header heading={"Michael Lines' Portfolio Of Passion."}/>
-        <SecondaryHeader heading={'A creative is someone who possess the ability to go into the unknown, draw out from the chaos and make sense of it through their art.'}/>
+        <img src="https://i.imgur.com/FvACXdx.png" alt="my logo" className={styles.logo}/>
+        <Header heading={"Michael Lines Design"}/>
+        <SecondaryHeader heading={'A portfolio of passions.'}/>
 
         <ButtonGroup marginTop={'3em'}>
           <button className={styles.btn}>
