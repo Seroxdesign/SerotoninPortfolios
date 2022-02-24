@@ -1,26 +1,27 @@
 .specialty_table{
-    width: 80%;
+    width: 60%;
     height: 100%;
-    margin-left: 10%;
     margin-top: 3em;
     background-color: #353535;
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 20%;
     grid-template-rows: 15% 1fr;
     border-radius: 25px 25px 5px 5px;
 }
 
 .table_intro{
     grid-column: 1/4;
-    background: linear-gradient(
-        to right, #8015EA, #9A44EE, #EA15E9);
+    background-color: #8015EA;
     border-radius: 25px 25px 0px 0px;
+
+    padding: 1em;
 }
 
 .column{
     height: 100%;
-    border: 1px solid rgb(144, 144, 144);
+    border: 1px solid rgba(144, 144, 144, 0.238);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -32,7 +33,7 @@
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    margin-top: 0.5em;
+    padding: 1em;
     border-bottom: 1px solid rgba(177, 177, 177, 0.319);
     height: 10vh;
 }

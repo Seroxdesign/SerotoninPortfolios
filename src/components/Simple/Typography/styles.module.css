@@ -2,16 +2,18 @@
     background-color: #353535;
     color: white;
     height: 100%;
-    width: 80%;
+    width: 60%;
     align-items: left;
     border-radius: 25px;
     padding: 2em;
     padding-bottom: 1em;
+    margin-top: 1em;
     font-size: large;
 }
 
 @media screen and (max-width: 786px){
     .typography_container{
+        margin-top: 1em;
         width: 95%;
         font-size: medium;
     }

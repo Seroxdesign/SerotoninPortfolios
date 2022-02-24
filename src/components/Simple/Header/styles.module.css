@@ -1,9 +1,6 @@
 @media screen and (max-width: 786px){
     .header{
-        background: linear-gradient(
-            to right, #8015EA, #9A44EE, #EA15E9);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        color: #8015EA;
         font-size: 30px;
         width: 90%;
         font-weight: 600;
@@ -13,10 +10,7 @@
 
 @media screen and (min-width: 786px){
     .header{
-        background: linear-gradient(
-            to right, #8015EA, #9A44EE, #EA15E9);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
+        color: #8015EA;
         font-size: 54px;
         font-weight: 600;
         text-align: center;

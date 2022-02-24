@@ -6,7 +6,7 @@ export default function SpecialtyTable() {
   return (
     <div className={styles.specialty_table}>
       <div className={styles.table_intro}>
-        <Heading textAlign={'center'} marginTop={'0.5em'} color={'#1b1b1b'}>{'My Specialties'}</Heading>
+        <Heading textAlign={'center'} color={'lightgray'}>{'My Specialties'}</Heading>
       </div>
 
       <div className={styles.column}>
@@ -40,7 +40,7 @@ export default function SpecialtyTable() {
 
       <div className={styles.column}>
         <h3 className={styles.column_head}>
-          FASHION BUSINESS BRANDING AND DESIGN 
+          FASHION BRANDING AND DESIGN 
         </h3>
 
         <ul className={styles.column_list}>

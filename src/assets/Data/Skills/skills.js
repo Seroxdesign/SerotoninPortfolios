@@ -12,20 +12,20 @@ const skills = [
     },
 
     {
-    icon: 'https://i.imgur.com/y9VCJIB.png',
-    title: 'Microsoft Office',
+    icon: 'https://i.imgur.com/fcWph2c.png',
+    title: 'Entrepreneur',
     link: '',
     },
 
     {
-    icon: 'https://i.imgur.com/ml4d8Qj.png',
-    title: 'Web Design',
+    icon: 'https://i.imgur.com/EhK9LVS.png',
+    title: 'Creative Problem Solver',
     link: '',
     },
 
     {
-    icon: 'https://i.imgur.com/szFIlvr.png',
-    title: 'Digital Artist',
+    icon: 'https://i.imgur.com/ewr0aMx.png',
+    title: 'Designer',
     link: '',
     },
 
@@ -44,6 +44,11 @@ const skills = [
     {
     icon: 'https://i.imgur.com/EPmGfOQ.png',
     title: 'Empathetic Leader',
+    link: '',
+    },
+    {
+    icon: 'https://i.imgur.com/QTafabB.png',
+    title: 'Organised',
     link: '',
     },
 ]

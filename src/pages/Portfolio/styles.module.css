@@ -1,0 +1,29 @@
+@media screen and (max-width: 786px) {
+  
+}
+
+@media screen and (min-width: 786px) {
+  
+}
+
+.portfolio_grid{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 10% 1fr;
+  position: fixed;
+  background-color: #1b1b1b;
+}
+
+.grid_item{
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.grid_content{
+  grid-row: 2;
+  height: 100%;
+  width: 100%;  
+  overflow-y: scroll;
+}

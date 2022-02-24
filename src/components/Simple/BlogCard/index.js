@@ -9,10 +9,13 @@ export default function BlogCard(props) {
         </div>
         
         <div className={styles.blog_content}>
-            <h3 className={styles.header}>{props.title}</h3>
+          <div>
+          <h3 className={styles.header}>{props.title}</h3>
             <p className={styles.para}>
                 {props.para}
             </p>
+          </div>
+            
             <a href={props.link} target="_blank" className={styles.linkTo}>Read more</a>
         </div>
     </div>

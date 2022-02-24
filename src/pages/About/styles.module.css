@@ -1,7 +1,27 @@
-.header_title{
-    font-size: x-large;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 0.7em;
-    color: #1b1b1b;
+@media screen and (max-width: 786) {
+    .about_grid{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-rows: 10% 1fr;
+        position: fixed;
+    }
+
+    .grid_item{
+        grid-row: 1;
+        height: 100%;
+        width: 100%;
+        background-color: #303030;
+    }
+
+    .grid_content{
+        grid-row: 1;
+        height: 100%;
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 786) {
+    
 }
