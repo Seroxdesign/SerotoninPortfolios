@@ -1,16 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Heading } from '@chakra-ui/react'
 import BlogPreviews from '../BlogPreviews';
 import projectPreviewArray from '../../../assets/Data/Projects/Projectpreviews';
 import { createBreakpoints } from '@chakra-ui/theme-tools';
 import ProjectCard from '../../Simple/ProjectCard';
-import { Popover } from '@chakra-ui/react';
 import styles from './styles.module.css'
 
 const breakpoints = createBreakpoints({
   sm: '320px',
   lg: '1024px',
 })
+
 
 
 export default function ProjectPreviews() {
@@ -20,7 +20,7 @@ export default function ProjectPreviews() {
         <hr className={styles.line}></hr>
         <div className={styles.project_grid}>
         {projectPreviewArray.map((project, i) => {
-                return <ProjectCard direction={'row'} img={project.img} title={project.title} para={project.para}/>
+                return <ProjectCard direction={'row'} imgs={project.imgs} img={project.img} title={project.title} para={project.para}/>
             })}
             <div className={styles.blog_container}>
               <BlogPreviews/>

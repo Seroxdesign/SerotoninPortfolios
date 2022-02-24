@@ -1,0 +1,30 @@
+@media screen and (max-width: 786px) {
+  .img_reel_container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .project_img{
+    height: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 786px) {
+  .img_reel_container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+
+  .project_img{
+    height: 100%;
+    width: 100%;
+  }
+}
+

@@ -91,10 +91,49 @@
         background-color: #15EA80;
         color: #1b1b1b;
     }
+
+    .close_popover{
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 10000000000000001;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(96, 12, 12);
+        font-size: xx-large;
+        color: white;
+        font-weight: 500;
+        transition: 0.6s;
+    }
+
+    .close_popover:hover{
+        transform: scale(0.9);
+        background-color: rgb(113, 8, 8);
+    }
 }
 
 
 @media screen and (max-width: 786px){
+
+    .close_popover{
+        position: fixed;
+        top:0;
+        left: 0;
+        z-index: 10000000000000001;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(96, 12, 12);
+        font-size: xx-large;
+        color: white;
+        font-weight: 500;
+        transition: 0.6s;
+    }
+
+    .close_popover:hover{
+        transform: scale(0.9);
+        background-color: rgb(113, 8, 8);
+    }
+
     .project_card{
         height: 70vh;
         width: 100%;
