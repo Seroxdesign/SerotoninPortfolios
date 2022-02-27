@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { ButtonGroup } from '@chakra-ui/react'
+import Popover from '../../Layout/Popover'
 import styles from './styles.module.css'
 
 export default function ProjectCard(props) {
+
+  const [popoverStatus, setStatus] = useState(false)
+
   return (
     <div className={styles.project_card} styles={{flexDirection: `${props.direction}`}}>
       <div className={styles.img_container}>
@@ -18,7 +22,7 @@ export default function ProjectCard(props) {
         </p>
 
         <ButtonGroup marginTop={'1em'}>
-          <button className={styles.btn}>
+          <button className={styles.btn} onClick={() => (setStatus( popoverStatus ? false : true ))}>
             View More
           </button>
 
@@ -27,6 +31,20 @@ export default function ProjectCard(props) {
           </button>
         </ButtonGroup>
       </div>
+      <div >
+        {
+          popoverStatus ?  
+          <div>
+            <Popover imgs={props.imgs}/>
+            <button className={styles.close_popover} onClick={() => (setStatus( popoverStatus ? false : true ))}>
+              x
+            </button>
+          </div>
+          : ''
+        }
+      </div>
+
+    
     </div>
   )
 }
