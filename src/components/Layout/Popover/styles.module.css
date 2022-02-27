@@ -12,10 +12,25 @@
 }
 
 .popover_body{
+    overflow-y: scroll;
     height: 99vh;
     width: 50vw;
     border-radius: 12px;
     background-color: rgb(7, 7, 7);
+}
+
+.project_img{
+    height: 100%;
+    width: 100%;
+}
+
+.popover_header{
+    color: white;
+    margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 80%;
+    font-size: x-large;
 }
 
 .img_reel_container{

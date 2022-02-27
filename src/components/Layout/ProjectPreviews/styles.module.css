@@ -4,7 +4,8 @@
 
 .project_grid{
     height: 100%;
-    width: 100%;
+    margin-left: 5%;
+    width: 90%;
     padding-bottom: 1em;
     padding-left: 10vw;
     padding-right: 10vw;
@@ -22,6 +23,10 @@
     margin-left: 10%;
     margin-bottom: 2em;
     color: #8015EA;;
+}
+
+.album_container{
+    grid-column: 1/3;
 }
 
 @media screen and (max-width: 786px) {

@@ -9,19 +9,14 @@ export default function ProjectCard(props) {
 
   return (
     <div className={styles.project_card} styles={{flexDirection: `${props.direction}`}}>
-      <div className={styles.img_container}>
-        <img src={props.img} alt={props.title} className={styles.project_img}></img>
-        <h3 className={styles.product_header}>{props.title}</h3>
+      <div className={styles.img_container} style={{backgroundImage: `url('${props.img}')`, backgroundSize: 'cover'}}>
       </div>
      
 
       <div className={styles.project_details}>
+        <h3 className={styles.product_header}>{props.title}</h3>
 
-        <p className={styles.product_para}>
-          {props.para}
-        </p>
-
-        <ButtonGroup marginTop={'1em'}>
+        <ButtonGroup>
           <button className={styles.btn} onClick={() => (setStatus( popoverStatus ? false : true ))}>
             View More
           </button>
@@ -35,7 +30,7 @@ export default function ProjectCard(props) {
         {
           popoverStatus ?  
           <div>
-            <Popover imgs={props.imgs}/>
+            <Popover imgs={props.imgs} para={props.para}/>
             <button className={styles.close_popover} onClick={() => (setStatus( popoverStatus ? false : true ))}>
               x
             </button>
