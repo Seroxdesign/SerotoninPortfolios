@@ -1,4 +1,4 @@
-@media screen and (min-width: 786px){
+@media screen and (min-width: 1024px){
     .project_card{
         height: 90vh;
         width: 100%;
@@ -109,7 +109,7 @@
 }
 
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1024px){
 
     .close_popover{
         position: fixed;
@@ -131,8 +131,8 @@
     }
 
     .project_card{
-        height: 70vh;
-        width: 100%;
+        height: 100vh;
+        width: 87vw;
         margin-bottom: 1em;
         border-radius: 25px;
         background-image: linear-gradient(45deg, #484848, #272727) ;
@@ -141,16 +141,16 @@
     }
 
     .project_details{
-        width: 90%;
+        width: 20vh;
         margin-left: 5%;
-        padding-bottom: 3em;
+        padding-bottom: 2em;
         color: lightgray;
     }
 
     .product_header{
-        font-size: x-large;
+        font-size: large;
         margin-top: 1em;
-        margin-left: 1em;
+        margin-bottom: 2em;
         color: white;
         font-weight: 500;
     }
@@ -158,13 +158,14 @@
     .product_para{
         font-size: small;
         margin-top: 1em;
+        background-color: #1b1b1b;
         color: rgb(193, 193, 193);
     }
 
-    .project_img{
+    .img_container{
         border-radius: 25px 25px 0px 0px;
         opacity: 0.8;
-        height: 25vh;
+        height: 35vh;
         width: 100%;
     }
 

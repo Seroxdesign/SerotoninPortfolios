@@ -5,7 +5,7 @@
     border: 3px solid #8015EA;
 }
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1024px){
     .profileImg{
         height: 15vh;
         width: 15vh;

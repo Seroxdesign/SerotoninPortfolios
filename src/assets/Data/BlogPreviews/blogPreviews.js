@@ -16,6 +16,7 @@ const blogsPrev = [
         title: 'The Time Is Now',
         para: "I titled my first blog “The Time is Now,” because I found myself being a champion of entrepreneurship. My advice to anyone struggling with the affects of lockdown, such as loss of income.",
         link: '',
+        imgs: [''],
     }
 ]
 

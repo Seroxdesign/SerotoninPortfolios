@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ImgReel from '../../Simple/ImgReel'
 import styles from './styles.module.css'
 
 export default function PopoverContainer(props) {
@@ -10,10 +9,18 @@ export default function PopoverContainer(props) {
   return (
       <div className={styles.pop_over}>
         <div className={styles.popover_body}>
-        <h2 className={styles.popover_header}>
-          {props.para}
-        </h2>
-
+        <p>
+          {props.para.map((p, i) => {
+            if(p==``){
+              return <div style={{marginTop: '2em'}}></div>
+            }
+            else{
+              return <div className={styles.text}>
+                {p}
+              </div>
+            }
+          })}
+        </p>
         {img_array.map((img, i) => {
           return <div className={styles.project_img} onClick={()=> {set_index(img_index+1)}} style={{backgroundImage: `url('${img}')`, backgroundSize:'cover'}}></div>
         })}

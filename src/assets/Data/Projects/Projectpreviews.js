@@ -28,7 +28,7 @@ const projectPreviewArray = [
 {
     img: Illustration1,
     title: 'Illustrations',
-    para: 'A collection of illustrations taken from the e-book, bringing to life the feelings, dialogues and humour throughout the story.',
+    para: ['A collection of illustrations taken from the e-book, bringing to life the feelings, dialogues and humour throughout the story.',],
     link: '',
     imgs: [Illustration1, Illustration2, Illustration3, Illustration4],
   },
@@ -36,14 +36,14 @@ const projectPreviewArray = [
   {
     img: 'https://i.imgur.com/7GN070Y.jpg',
     title: 'Curb Talk Podcast',
-    para: 'The Curb Talk Podcast is a digital podcast and media channel, founded in 2020. The podcast was started as a way to document honest conversations.',
+    para: ['The Curb Talk Podcast is a digital podcast and media channel, founded in 2020. The podcast was started as a way to document honest conversations.',],
     link: '',
     imgs: [''],
   },
   {
     img: GraphicDesign5,
     title: 'Graphic Design',
-    para: 'A selection of graphic design work for product packaging and business advertisement.',
+    para: ['A selection of graphic design work for product packaging and business advertisement.',],
     link: '',
     imgs: [GraphicDesign, GraphicDesign2, GraphicDesign3, GraphicDesign4, GraphicDesign5],
   },
@@ -51,7 +51,7 @@ const projectPreviewArray = [
   {
     img: AlbumArtwork1,
     title: "Album Artworks",
-    para: 'A collection of album artworks designed for upcoming UK Afrobeats artist Muizz. I use themes and ideas found in a song’s lyrics to dictate the design direction of the artwork. Animation can added to create GIFS/ micro content for social media platforms. Muizz’s Instagram https://www.instagram.com/muizz.alm/?hl=en ',
+    para: ['A collection of album artworks designed for upcoming UK Afrobeats artist Muizz. I use themes and ideas found in a song’s lyrics to dictate the design direction of the artwork. Animation can added to create GIFS/ micro content for social media platforms. Muizz’s Instagram https://www.instagram.com/muizz.alm/?hl=en ',],
     link: '',
     imgs: [AlbumArtwork1, AlbumArtwork2, AlbumArtwork3, AlbumArtwork4],
   },
@@ -59,7 +59,7 @@ const projectPreviewArray = [
   {
     img: Logo1,
     title: 'Logo designs',
-    para: 'This page is designed for you to get a more in-depth understanding of my interests and specialities. The page is here to show you what I excel at, and enjoy designing the most.',
+    para: ['This page is designed for you to get a more in-depth understanding of my interests and specialities. The page is here to show you what I excel at, and enjoy designing the most.',],
     link: '',
     imgs: [Logo1, Logo2, Logo3, Logo4],
   },
@@ -67,7 +67,7 @@ const projectPreviewArray = [
   {
     img: Photography1,
     title: 'Freelance Photographer',
-    para: 'LINES photography is an upcoming luxury jewellery, fashion and wellbeing business, with aims to create long lasting and genuine connections with the jewellery and clothing we wear.',
+    para: ['LINES photography is an upcoming luxury jewellery, fashion and wellbeing business, with aims to create long lasting and genuine connections with the jewellery and clothing we wear.',],
     link: '',
     imgs: [Photography1, Photography2, Photography3, Photography4 ],
   },

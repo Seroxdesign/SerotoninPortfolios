@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1023px){
     .btn{
         background-color: #15EA80;
         color: #1b1b1b; 
@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (min-width: 786px){
+@media screen and (min-width:1024px){
     .btn{
         background-color: #15EA80;
         color: #1b1b1b; 

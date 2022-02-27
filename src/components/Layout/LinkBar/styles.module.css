@@ -1,4 +1,4 @@
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1023px){
     .link_bar{
         height: 100%;
         width:100%;
@@ -15,7 +15,7 @@
     }
 }
 
-@media screen and (min-width: 786px){
+@media screen and (min-width: 1024px){
     .link_bar{
         height: 100%;
         width:50%;

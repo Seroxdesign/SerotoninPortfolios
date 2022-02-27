@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { ButtonGroup } from '@chakra-ui/react'
 import Popover from '../../Layout/Popover'
+import formLinks from '../../../assets/Forms/FormLinks'
 import styles from './styles.module.css'
 
 export default function ProjectCard(props) {
@@ -21,13 +22,16 @@ export default function ProjectCard(props) {
             View More
           </button>
 
-          <button className={styles.btn_invert}>
-            Contact Me
-          </button>
+          <a href={`${formLinks.contact_form}`} target={"_blank"}>
+            <button className={styles.btn_invert} >
+              Contact Me
+            </button>
+          </a>
+          
         </ButtonGroup>
       </div>
       <div >
-        {
+      {
           popoverStatus ?  
           <div>
             <Popover imgs={props.imgs} para={props.para}/>

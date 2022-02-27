@@ -32,7 +32,7 @@
     margin-bottom: 1em;
 }
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1024px){
     .skillIcon{
         height: 10vh;
     }

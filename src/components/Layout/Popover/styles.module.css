@@ -39,11 +39,42 @@
     
 }
 
+.text{
+    padding-top: 2em;
+    color: rgba(255, 255, 255, 0.836);
+    margin-left: 2em;
+    font-size: x-large;
+    width: 80%; 
+}
 
-@media screen and (max-width: 786px) {
+
+@media screen and (max-width: 1023px) {
+
+    
+    .text{
+        padding-top: 2em;
+        color: rgba(255, 255, 255, 0.836);
+        margin-left: 2em;
+        font-size: x-large;
+        width: 80%; 
+        margin-bottom: 2em;
+    }
     .popover_body{
         height: 90vh;
         width: 90vw;
-        background-color: white;
+        background-color: #1b1b1b;
+    }
+
+    .project_img{
+        height: 30vh;
+        width: 100%;
+        background-size: contain;
+    }
+
+    .popover_header{
+        color: #1b1b1b;
+        padding: 1em;
+        width: 90%;
+        font-size: large;
     }
 }

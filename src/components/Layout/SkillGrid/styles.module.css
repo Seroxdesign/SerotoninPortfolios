@@ -8,7 +8,7 @@
     padding-bottom: 2em;
 }
 
-@media screen and (max-width: 786px){
+@media screen and (max-width:1023px){
     .skillgrid{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 3vh;

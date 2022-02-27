@@ -1,4 +1,4 @@
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1024px){
     .header{
         color: #8015EA;
         font-size: 30px;
@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (min-width: 786px){
+@media screen and (min-width: 1024px){
     .header{
         color: #8015EA;
         font-size: 54px;

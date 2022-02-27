@@ -54,7 +54,7 @@
 
 
 
-@media screen and (max-width: 786px){
+@media screen and (max-width: 1023px){
     .specialty_table{
         display: none;
     }

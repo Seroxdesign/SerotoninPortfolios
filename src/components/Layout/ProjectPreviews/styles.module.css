@@ -19,17 +19,24 @@
 }
 
 .line{
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 2em;
-    color: #8015EA;;
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 1em;
+    opacity: 0.4;
 }
 
 .album_container{
     grid-column: 1/3;
 }
 
-@media screen and (max-width: 786px) {
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1em;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 1023px) {
 .project_grid{
     height: 100%;
     padding-left: 2vw;
@@ -41,4 +48,9 @@
     flex-direction: column;
 }
 
+.blogs{
+    display: flex;
+    flex-direction: column;
+    width: 88vw;
+}
 }
