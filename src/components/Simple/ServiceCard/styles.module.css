@@ -1,0 +1,96 @@
+
+@media screen and (min-width: 1024px) {
+  .service_card{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(-45deg, #353535, #272727);
+    border-radius: 25px;
+    padding: 2em;
+    box-sizing: border-box;
+    color: white;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .service_card:hover{
+    box-shadow: 3px 3px 10px #9944ee92;
+  }
+
+  .second_header{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.755);
+  }
+
+  .button{
+    height: 8vh;
+    width: 15vw;
+    background-color: #8015EA;
+    border-radius: 25px;
+    margin-top: 5em;
+  }
+
+  .service_section{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .main_header{
+    font-size: xx-large;
+    color: #8015EA;
+    font-weight: 700;
+  }
+
+  .service_item{
+
+    background: linear-gradient(#8015EA, #353535);
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .service_card{
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 5em;
+  }
+
+  .second_header{
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.755);
+    margin-left: 1em;
+  }
+
+  .button{
+    height: 8vh;
+    margin-left: 1em;
+    width: 45vw;
+    background-color: #8015EA;
+    border-radius: 25px;
+    margin-top: 2em;
+  }
+
+  .service_section{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main_header{
+    font-size: xx-large;
+    color: #8015EA;
+    margin-left: 0.5em;
+    font-weight: 700;
+  }
+
+  .service_item{
+    margin-left: 1em;
+    color: white;
+    margin-top: 0.5em;
+    background: linear-gradient(#8015EA, #353535);
+    padding: 1em;
+  }
+}
