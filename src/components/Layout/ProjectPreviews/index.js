@@ -1,18 +1,11 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Heading } from '@chakra-ui/react'
 import projectPreviewArray from '../../../assets/Data/Projects/Projectpreviews';
 import blogPosts from '../../../assets/Data/BlogPreviews/BlogPost';
 import BlogCard from '../../Simple/BlogCard';
-import { createBreakpoints } from '@chakra-ui/theme-tools';
+
 import ProjectCard from '../../Simple/ProjectCard';
 import styles from './styles.module.css'
-
-const breakpoints = createBreakpoints({
-  sm: '320px',
-  lg: '1024px',
-})
-
-
 
 export default function ProjectPreviews() {
   return (

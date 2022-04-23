@@ -1,16 +1,9 @@
 import React from 'react'
 import { Flex } from '@chakra-ui/react'
 import ProfileImg from '../../Simple/ProfileImg'
-import { createBreakpoints } from '@chakra-ui/theme-tools'
 import { Heading } from '@chakra-ui/react'
 import Typography from '../../Simple/Typography'
 import Aboutme from '../../../assets/Data/About/Aboutme'
-import styles from './styles.module.css'
-
-const breakpoints = createBreakpoints({
-  sm: '320px',
-  lg: '1024px',
-})
 
 export default function Introduction() {
   return (

@@ -1,13 +1,8 @@
 import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
-import { createBreakpoints } from '@chakra-ui/theme-tools';
+
 import { UserContext } from '../../../lib/context';
 import styles from './styles.module.css';
-
-const breakpoints = createBreakpoints({
-    sm: '320px',
-    lg: '1024px',
-  })  
 
 export default function Navbar() {
     const { user } = useContext(UserContext);

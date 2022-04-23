@@ -6,7 +6,6 @@ import styles from './styles.module.css'
 export function SignInForm() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
-  console.log(email, password);
   const handleChangeEmail = (event) => {
     setEmail(event.currentTarget.value);
   };
@@ -20,7 +19,6 @@ export function SignInForm() {
     signInWithEmailAndPassword(auth, email.value, password.value)
     .then(( userCredential) => {
       const user = userCredential.user;
-      console.log(user)
     })
     .catch((error) => {
       alert(error.message)
@@ -53,7 +51,7 @@ export function SignInForm() {
               <h3>Remember?</h3>
             </a>
           </div>
-          <button className={styles.form_submit} disabled={email =="" && password ==""}>Log In</button>
+          <button className={styles.form_submit} disabled={email ==="" && password ===""}>Log In</button>
         </div>
       </form>
       <br></br>

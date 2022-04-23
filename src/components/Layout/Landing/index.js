@@ -21,7 +21,7 @@ export default function Landing() {
             </button>
           </Link>
 
-          <a href={`${formLinks.contact_form}`} target={'_blank'}> 
+          <a href={`${formLinks.contact_form}`} target={'_blank'} rel={"nonreferrer"}> 
           <button className={styles.btn_invert}>
             Contact Me
           </button>
