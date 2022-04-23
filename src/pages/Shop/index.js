@@ -1,5 +1,4 @@
 import React from 'react'
-import { getAnalytics, logEvent } from "firebase/analytics";
 import Navbar from '../../components/Layout/Navbar';
 import ServiceGrid from '../../components/Layout/ServiceGrid';
 import { Grid, GridItem } from '@chakra-ui/react'

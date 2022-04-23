@@ -1,0 +1,10 @@
+.header{
+  color: white;
+}
+
+.sign_out_btn{
+  height: 50px;
+  width: 30vw;
+  background-color: red;
+  color: white;
+}
