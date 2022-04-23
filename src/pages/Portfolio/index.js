@@ -1,5 +1,4 @@
 import React from 'react'
-import { getAnalytics, logEvent } from "firebase/analytics";
 import Navbar from '../../components/Layout/Navbar';
 import ProjectPreviews from '../../components/Layout/ProjectPreviews';
 import styles from './styles.module.css'

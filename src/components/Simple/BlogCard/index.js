@@ -9,7 +9,7 @@ export default function BlogCard(props) {
   return (
     <div className={styles.BlogCard}>
       <div className={styles.img_container}>
-          <img src={props.img} className={styles.img}/>
+          <img src={props.img} className={styles.img} alt={"Blog Image"}/>
       </div>
       
       <div className={styles.blog_content}>

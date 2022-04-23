@@ -6,12 +6,14 @@ export default function PopoverContainer(props) {
   const [img_array, set_array] = useState(props.imgs)
   const [img_index, set_index] = useState(0)
 
+  console.log(set_array)
+
   return (
       <div className={styles.pop_over}>
         <div className={styles.popover_body}>
         <p>
           {props.para.map((p, i) => {
-            if(p==``){
+            if(p===``){
               return <div style={{marginTop: '2em'}}></div>
             }
             else{

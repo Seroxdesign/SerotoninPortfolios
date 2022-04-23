@@ -1,5 +1,4 @@
 import React from 'react'
-import { getAnalytics, logEvent } from "firebase/analytics";
 import Navbar from '../../components/Layout/Navbar';
 import SpecialtyTable from '../../components/Layout/SpecialityTable';
 import SkillGrid from '../../components/Layout/SkillGrid';
