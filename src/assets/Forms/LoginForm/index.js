@@ -19,6 +19,7 @@ export function SignInForm() {
     signInWithEmailAndPassword(auth, email.value, password.value)
     .then(( userCredential) => {
       const user = userCredential.user;
+      console.log(user)
     })
     .catch((error) => {
       alert(error.message)

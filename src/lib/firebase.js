@@ -3,13 +3,20 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAdCeLiEdP_kzvF44UfoHXoxG0PsUSNnq8",
-  authDomain: "michaellinesdesign-f75e7.firebaseapp.com",
-  projectId: "michaellinesdesign-f75e7",
-  storageBucket: "michaellinesdesign-f75e7.appspot.com",
-  messagingSenderId: "523494310984",
-  appId: "1:523494310984:web:8bf522fa6aca14bd40847d",
-  measurementId: "G-8ERTXGYQ6W"
+  apiKey: "AIzaSyAGbNPAhrfB3cBJCE67LWLigVFrmltlfgs",
+
+  authDomain: "portfolioio-d9a91.firebaseapp.com",
+
+  projectId: "portfolioio-d9a91",
+
+  storageBucket: "portfolioio-d9a91.appspot.com",
+
+  messagingSenderId: "151368453881",
+
+  appId: "1:151368453881:web:5fd3b67c1e28aa6cbd1c28",
+
+  measurementId: "G-J4YM3XFBKN"
+
 };
 
 if (!firebase.apps.length) {
