@@ -2,8 +2,7 @@
 @media screen and (max-width: 1023px){
     .btn{
         background-color: #15EA80;
-        color: #1b1b1b; 
-        font-size: large;
+        color: #1b1b1b;
         display: flex;
         align-items: center;
         justify-content: center;

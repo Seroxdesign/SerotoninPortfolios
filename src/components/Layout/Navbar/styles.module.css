@@ -1,7 +1,6 @@
 
 
 .navbar_wrapper{
-    height: 100%;
     width: 100%;
     color: rgba(255, 255, 255, 0.7);
     display: flex;
@@ -25,7 +24,6 @@
 
 @media screen and (max-width: 1023px){
     .navbar_wrapper{
-        height: 100%;
         width: 100%;
         color: rgba(255, 255, 255, 0.7);
         display: flex;
@@ -38,7 +36,6 @@
 }
 @media screen and (min-width: 1024px){
     .navbar_wrapper{
-        height: 100%;
         width: 100%;
         color: rgba(255, 255, 255, 0.7);
         display: flex;

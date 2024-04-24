@@ -12,7 +12,7 @@ export default function ImgReel(props) {
   return (
     <div className={styles.img_reel_container} >
       {img_array.map((img, i) => {
-        return <div className={styles.project_img} onClick={()=> {set_index(img_index+1)}} style={{backgroundImage: `url('${img}')`, backgroundSize:'cover'}}></div>
+        return <div className={styles.project_img} onClick={()=> {set_index(img_index+1)}} onKeyDown={(e) => {if(e.key === 'Enter') set_index(img_index+1)}} tabIndex={i} style={{backgroundImage: `url('${img}')`, backgroundSize:'cover'}}></div>
       })}
     </div>
   )
